@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class DranAndDrop {
+public class DragAndDrop {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
