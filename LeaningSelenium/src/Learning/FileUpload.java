@@ -1,4 +1,4 @@
-package Leaning;
+package Learning;
 
 import java.io.IOException;
 
