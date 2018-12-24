@@ -46,9 +46,6 @@ public class ExampleInstrumentedTest {
     @Test
     public void login() throws InterruptedException {
 
-
-
-
         onView(withId(R.id.edt_username)).perform(typeText("crazydog335"));
         onView(withId(R.id.edt_password)).perform(typeText("venture"));
         onView(withId(R.id.btn_login)).perform(click());
@@ -61,9 +58,6 @@ public class ExampleInstrumentedTest {
         Thread.sleep(5000);
         onView(withId(R.id.fab)).perform(click());
         Thread.sleep(5000);
-
-
-
 
     }
 
